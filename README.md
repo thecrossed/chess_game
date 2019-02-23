@@ -5,33 +5,15 @@
 
 ## 什么是 Git 与 GitHub？
 
-Git is a command line program which allows you to track versions of any code or
-plain text documents that you create. Like the "track changes" feature of
-a word processor Git keeps track of who made particular changes, the time and
-date of those changes, and where the changes were made. If a critical file gets
-deleted by accident, or if you make a breaking change to your code and you want
-to try to figure out where the breaking change was made, you can use Git to
-restore the deleted file or find the new bug in your program. Git organizes
-groups of files that you're tracking into a **repository**, which is just a
-directory where all of the changes to files in that directory are tracked. Git
-can also help you collaborate with others when you're writing software. As
-[Karl Broman](https://twitter.com/kwbroman) says
-(paraphrasing [Mark Holder](https://twitter.com/mtholder)):
-"Your closest collaborator is you six months ago, but you don’t reply to
-emails."
+Git 是一套可以帮你追踪代码的版本控制程序。具体来说，Git 可以追踪到谁修改了文本，修改文本的时间以及修改了哪些地方。
+如果某些文件被不小心删除，或者你的代码在某个重要节点有调整，你可以使用 Git 恢复被删除的文件，或者回到某个代码节点上。
+Git 将你打算追踪的文件存储到一个叫 **repository** （仓库）的地方，可以把它理解为一个文件夹。
+Git 同时也可以让你和其他编程人员合作完成代码。
 
-GitHub is a website that provides remote Git repositories. A remote repository
-is just a Git repository that you're able to access over an internet connection.
-GitHub allows you to create public remote repositories for free, and anyone can
-see your code in these public repositories. If you want to keep your code private
-then you can pay GitHub for private remote repositories.
+而 GitHub 则是一个提供远程repository的网站。所谓远程repository，其实一个你可以通过互联网就能访问的repository。
+你可以在 GitHub 上免费创建公开的repository，任何人也可以访问你的代码。如果你想将这些代码私有使用，需要像 GitHub支付私人repository的费用。
 
-If you're working
-on code together with a friend GitHub can help you sync changes to code files
-between you and your friend. There's also a social and community aspect to
-GitHub, since you can watch other programmers develop their projects. GitHub
-also makes it easy to jump in and help somebody with their project. GitHub
-offers many other useful features which we will discuss at length.
+如果你和同伴正在合作完成代码，GitHub可以帮你协调你们对代码的改动。在GitHub上也有很多编程人员组成的社区，大家彼此之间互相帮助，相信你会在使用中深刻体会到。
 
 ## Setting Up Git and GitHub
 
